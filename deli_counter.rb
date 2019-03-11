@@ -2,7 +2,9 @@ def line(deli)
   if deli.empty?
     puts "The line is currently empty."
   end
-  
+  else
+    current_line = "The line is currently:"
+    
     
 def take_a_number(deli, name)
   deli << name
