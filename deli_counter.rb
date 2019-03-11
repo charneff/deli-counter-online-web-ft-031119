@@ -4,7 +4,7 @@ def line(deli)
   end
   else
     current_line = "The line is currently:"
-    
+    deli.each_with_index(1)
     
 def take_a_number(deli, name)
   deli << name
